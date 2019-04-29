@@ -1,3 +1,81 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+.wrapper {
+	margin: 0 auto;
+	width: 90%;
+}
 
+.logo-icon {
+	display: flex;
+	justify-content: center;
+}
 
+.innovation-section {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+button {
+	width: 250px;
+	height: 50px;
+	border: 1px solid black;
+	background: white;
+	color: black;
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 800;
+	text-align: center;
+}
+
+hr {
+	border: 2px solid black;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header nav a {
+margin-right: 20px;
+text-decoration: none;
+color: lightgray;
+
+}
+
+.main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.box-upper {
+	width: 48%;
+}
+
+.box-lower {
+	width: 31%;
+}
+
+img.mid-page-image {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+p.copy {
+	text-align: center;
+}
